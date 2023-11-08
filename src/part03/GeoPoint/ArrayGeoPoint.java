@@ -1,6 +1,8 @@
-package part03;
+package part03.GeoPoint;
 
-// 1,2차원 배열로 위도, 경도 표현하기
+/**
+ * 032. 1,2 차원 배열로 위도, 경도 표현하기
+ */
 public class ArrayGeoPoint {
     public static void main(String[] args) {
 //        실수 변수

@@ -1,6 +1,10 @@
-package part03;
+package part03.GeoPoint;
 
-// 위도, 경도를 한 묶음으로 객체에 저장
+import part03.GeoPoint.ObjectGeoPoint;
+
+/**
+ * 033. 객체를 이용하여 위도, 경도 표현하기
+ */
 public class ObjectGeoPointMain {
     public static void main(String[] args) {
 //        실수 변수
