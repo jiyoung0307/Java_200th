@@ -1,5 +1,8 @@
-package part03;
+package part03.BioCalendar;
 
+/**
+ * 030. 멤버 메서드를 이용하여 신체 지수 구하기
+ */
 public class MemberBioCalendar {
     public static final int PHYSICAL = 23;      // static 변수 생성 없이 사용
 

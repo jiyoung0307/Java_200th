@@ -1,5 +1,8 @@
-package part03;
+package part03.BioCalendar;
 
+/**
+ * 029. static 메서드로 신체 지수 구하기
+ */
 public class StaticBioCalendar {
     public static final int PHYSICAL = 23;
 

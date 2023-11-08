@@ -1,15 +1,18 @@
-package part03;
+package part03.Fruit;
 
+/**
+ * 031. 상수의 묶음 클래스 enum 사용하기
+ */
 public class EnumFruitMain {
     public static void main(String[] args) {
-        ENUMFRUIT pear = ENUMFRUIT.APPLE;
-        ENUMFRUIT pear2 = ENUMFRUIT.MANGO;
+        EnumFruit pear = EnumFruit.APPLE;
+        EnumFruit pear2 = EnumFruit.MANGO;
 
         System.out.println(pear);
         System.out.println(pear.name());
         System.out.println(pear.ordinal());      // 선언될 때 순서 0
         System.out.println(pear2.ordinal());     // 선언될 때 순서 2
-        ENUMFRUIT[] fruits = ENUMFRUIT.values();
+        EnumFruit[] fruits = EnumFruit.values();
         System.out.println(fruits[0]);
     }
 }

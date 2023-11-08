@@ -1,7 +1,8 @@
-package part03;
+package part03.Condition;
 
-// if 조건문을 이용하여 짝홀수 판별하기
-// if condition
+/**
+ * 034. if 조건문을 이용하여 짝,홀수 판별하기
+ */
 
 public class EvenOddIfCondition {
     public static void main(String[] args) {

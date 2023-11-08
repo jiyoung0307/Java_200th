@@ -1,5 +1,8 @@
-package part03;
+package part03.JCanlendat;
 
+/**
+ * 041. 논리 연산자(&&, ||)로 윤년 판별하기
+ */
 public class BooleanJCalendar {
     public boolean isLeapYear(int year) {
         boolean isS = false;

@@ -1,6 +1,8 @@
-package part03;
+package part03.Condition;
 
-// 삼항 연상자를 사용해서 짝홀수 판별하기
+/**
+ * 035. 삼항연산자를 이용하여 짝,홀수 판별하기
+ */
 public class EvenOddTriCondition {
     public static void main(String[] args) {
         int temp = 99;

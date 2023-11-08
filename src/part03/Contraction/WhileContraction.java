@@ -1,5 +1,8 @@
-package part03;
+package part03.Contraction;
 
+/**
+ * 048. while과 단축 연산자를 이용하여 각 자릿수의 합 구하기
+ */
 public class WhileContraction {
     public static int sumEach(int n) {
         int tot = 0;

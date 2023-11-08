@@ -1,5 +1,8 @@
-package part03;
+package part03.BioCalendar;
 
+/**
+ * 028. Math 클래스를 사용하여 신체 지수 구하기
+ */
 public class MathBioCalendar {
     public static final int PHYSICAL = 23;
 
