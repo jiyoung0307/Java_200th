@@ -1,4 +1,4 @@
-package part03;
+package part03.PrimMath;
 
 import java.util.Scanner;
 
