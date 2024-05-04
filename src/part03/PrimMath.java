@@ -1,11 +1,13 @@
 package part03;
 
+import java.util.Scanner;
+
 /* 입력받은 수가 소수인지 판별 */
 public class PrimMath {
     public static boolean isPrime(int n) {
         boolean isS = true;
         for (int i = 2; i < (int)Math.sqrt(n); i++) {
-            if (n%i == 0) {
+            if (n % i == 0) {
                 isS = false;
                 break;
             }
@@ -19,12 +21,18 @@ public class PrimMath {
     이 때 반복 횟수를 최소화하기 위해 제곱근(에라토스테네스)를 이용
      */
     public static void main(String[] args) {
-        int num = 123456789;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("숫자를 입력하세요 : ");
+        int num = sc.nextInt();
+
         boolean ifPrime = isPrime(num);     // 소수인가 판별
         if(ifPrime) {
             System.out.printf("%d는 1과 자신으로만 나눠떨어지는 소수다.", num);
         } else {
             System.out.printf("%d는 소수가 아니다.", num);
         }
+
+        sc.close();
     }
 }
